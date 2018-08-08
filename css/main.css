@@ -1,0 +1,26 @@
+body {
+    background-color: #000000;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.parent {
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100%;
+    left:0px;
+    top:0px;
+}
+
+.te,.amo {
+    font-family:helvetica;
+    font-size: 56px;
+    position: relative;
+    color: #fe4334;
+    text-align:center;
+    width:50%;
+}

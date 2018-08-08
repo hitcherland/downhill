@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<title>⍙⍁DOWNHILL⍂⍙</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+        <link rel="stylesheet" href="css/main.css">
+		<script src="js/phaser.js"></script>
+        <!--<script src="js/phaser.min.js"></script>-->
+		<script src="js/main.js"></script>
+	</head>
+	<body>
+		<script>
+            var game = new Phaser.Game({
+                renderer: Phaser.AUTO,
+                width: "100", 
+                height: "100",
+                state: {
+                    preload: preload,
+                    create: create,
+                    update: update,
+                }
+            });
+		</script>
+	</body>
+</html>
