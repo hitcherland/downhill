@@ -18,7 +18,7 @@ function create ()
         "boundsAlignH": "center",
         "boundsAlignV": "middle",
         "strokeThickness": 4,
-        "stroke": "#ffffff80",
+        "stroke": "#ffffff",
     } );
     text.centerX = game.width / 2;
     text.centerY = game.height / 2;
@@ -27,8 +27,8 @@ function create ()
         "font": "2.1vw monospace", 
         "boundsAlignH": "center",
         "boundsAlignV": "middle",
-        "strokeThickness": 4,
-        "stroke": "#ffffff80",
+        "strokeThickness": 3,
+        "stroke": "#ffffff",
     } );
     text2.centerX = game.width / 2;
     text2.top = text.bottom - text.height * 0.1;
